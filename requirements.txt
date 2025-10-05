@@ -1,0 +1,6 @@
+requirements.txt
+streamlit
+streamlit-folium
+folium
+pillow
+pandas

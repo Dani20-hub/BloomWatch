@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>BloomWatch Local 🌸</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; }
+    h1 { color: #8e44ad; }
+    label { display: block; margin-top: 20px; }
+    input, textarea, button { width: 100%; padding: 10px; margin-top: 5px; }
+    .map { margin-top: 30px; height: 300px; background-color: #ddd; text-align: center; line-height: 300px; }
+  </style>
+</head>
+<body>
+
+  <h1>🌸 BloomWatch Local</h1>
+  <p>Registra tu observación de floración y contribuye a la ciencia ciudadana.</p>
+
+  <form>
+    <label for="photo">📷 Foto de la floración:</label>
+    <input type="file" id="photo" name="photo">
+
+    <label for="date">📅 Fecha de observación:</label>
+    <input type="date" id="date" name="date">
+
+    <label for="location">📍 Ubicación (latitud, longitud):</label>
+    <input type="text" id="location" name="location" placeholder="Ej: 10.987654, -74.123456">
+
+    <label for="notes">📝 Notas (opcional):</label>
+    <textarea id="notes" name="notes" rows="4" placeholder="Escribe detalles sobre la floración..."></textarea>
+
+    <button type="submit">Guardar observación</button>
+  </form>
+
+  <div class="map">🗺️ Aquí aparecerá el mapa de floraciones</div>
+
+</body>
+</html>
